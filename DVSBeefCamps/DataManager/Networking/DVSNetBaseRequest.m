@@ -10,7 +10,6 @@
 #import <AFNetworking/AFNetworking.h>
 #import "DVSNetConfig.h"
 #import "DVSNetAgent.h"
-#import "DVSNetProxy.h"
 
 @interface DVSNetBaseRequest ()
 

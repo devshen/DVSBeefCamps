@@ -17,8 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    DVSNetConfig *config = [DVSNetConfig sharedInstance];
-    config.mainBaseUrl = @"http://gank.avosapps.com/api/data";
 
     return YES;
 }

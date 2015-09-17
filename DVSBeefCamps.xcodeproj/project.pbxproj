@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1023D31E1BA3FF94004530BD /* DVSBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D3111BA3FF94004530BD /* DVSBatchRequest.m */; };
+		1023D31F1BA3FF94004530BD /* DVSBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D3131BA3FF94004530BD /* DVSBatchRequestAgent.m */; };
+		1023D3201BA3FF94004530BD /* DVSNetAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D3151BA3FF94004530BD /* DVSNetAgent.m */; };
+		1023D3211BA3FF94004530BD /* DVSNetBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D3171BA3FF94004530BD /* DVSNetBaseRequest.m */; };
+		1023D3221BA3FF94004530BD /* DVSNetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D3191BA3FF94004530BD /* DVSNetConfig.m */; };
+		1023D3231BA3FF94004530BD /* DVSDataBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D31D1BA3FF94004530BD /* DVSDataBaseModel.m */; };
+		1023D3261BA3FFB7004530BD /* DVSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D3251BA3FFB7004530BD /* DVSDataManager.m */; };
+		1023D3291BA40195004530BD /* DVSStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D3281BA40195004530BD /* DVSStoreManager.m */; };
+		1023D32C1BA40407004530BD /* DVSDataBaseModel+Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023D32B1BA40407004530BD /* DVSDataBaseModel+Query.m */; };
 		109185A11B994871008ACB14 /* DVSBeefCampsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 109185A01B994871008ACB14 /* DVSBeefCampsTests.m */; };
 		109185B91B994C0B008ACB14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109185AF1B994C0B008ACB14 /* AppDelegate.m */; };
 		109185BA1B994C0B008ACB14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 109185B01B994C0B008ACB14 /* LaunchScreen.xib */; };
@@ -15,13 +24,8 @@
 		109185BD1B994C0B008ACB14 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 109185B51B994C0B008ACB14 /* Info.plist */; };
 		109185BE1B994C0B008ACB14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 109185B61B994C0B008ACB14 /* main.m */; };
 		109185BF1B994C0B008ACB14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109185B81B994C0B008ACB14 /* ViewController.m */; };
-		109185C31B994D4A008ACB14 /* DVSNetBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 109185C21B994D4A008ACB14 /* DVSNetBaseRequest.m */; };
-		1091EE001B9ACFED004F482A /* DVSNetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1091EDFF1B9ACFED004F482A /* DVSNetConfig.m */; };
-		1091EE031B9AD1B3004F482A /* DVSNetAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1091EE021B9AD1B3004F482A /* DVSNetAgent.m */; };
 		1091EE0E1B9AEC55004F482A /* BeautyReformerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1091EE0C1B9AEC55004F482A /* BeautyReformerData.m */; };
 		1091EE131B9B2AFE004F482A /* BaseReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1091EE121B9B2AFE004F482A /* BaseReformer.m */; };
-		1091EE161B9B3118004F482A /* DVSBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1091EE151B9B3118004F482A /* DVSBatchRequest.m */; };
-		1091EE191B9B42A4004F482A /* DVSBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1091EE181B9B42A4004F482A /* DVSBatchRequestAgent.m */; };
 		1DE1C76F9F4D6AE20869CDA5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F37BC40B21A6B641EB7BA3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,25 @@
 
 /* Begin PBXFileReference section */
 		0625395031FAE2B61C48A9F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1023D3101BA3FF94004530BD /* DVSBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSBatchRequest.h; sourceTree = "<group>"; };
+		1023D3111BA3FF94004530BD /* DVSBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSBatchRequest.m; sourceTree = "<group>"; };
+		1023D3121BA3FF94004530BD /* DVSBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSBatchRequestAgent.h; sourceTree = "<group>"; };
+		1023D3131BA3FF94004530BD /* DVSBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSBatchRequestAgent.m; sourceTree = "<group>"; };
+		1023D3141BA3FF94004530BD /* DVSNetAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSNetAgent.h; sourceTree = "<group>"; };
+		1023D3151BA3FF94004530BD /* DVSNetAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSNetAgent.m; sourceTree = "<group>"; };
+		1023D3161BA3FF94004530BD /* DVSNetBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSNetBaseRequest.h; sourceTree = "<group>"; };
+		1023D3171BA3FF94004530BD /* DVSNetBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSNetBaseRequest.m; sourceTree = "<group>"; };
+		1023D3181BA3FF94004530BD /* DVSNetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSNetConfig.h; sourceTree = "<group>"; };
+		1023D3191BA3FF94004530BD /* DVSNetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSNetConfig.m; sourceTree = "<group>"; };
+		1023D31A1BA3FF94004530BD /* DVSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSNetworking.h; sourceTree = "<group>"; };
+		1023D31C1BA3FF94004530BD /* DVSDataBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSDataBaseModel.h; sourceTree = "<group>"; };
+		1023D31D1BA3FF94004530BD /* DVSDataBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSDataBaseModel.m; sourceTree = "<group>"; };
+		1023D3241BA3FFB7004530BD /* DVSDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSDataManager.h; sourceTree = "<group>"; };
+		1023D3251BA3FFB7004530BD /* DVSDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSDataManager.m; sourceTree = "<group>"; };
+		1023D3271BA40195004530BD /* DVSStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSStoreManager.h; sourceTree = "<group>"; };
+		1023D3281BA40195004530BD /* DVSStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSStoreManager.m; sourceTree = "<group>"; };
+		1023D32A1BA40407004530BD /* DVSDataBaseModel+Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVSDataBaseModel+Query.h"; sourceTree = "<group>"; };
+		1023D32B1BA40407004530BD /* DVSDataBaseModel+Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVSDataBaseModel+Query.m"; sourceTree = "<group>"; };
 		109185811B994871008ACB14 /* DVSBeefCamps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVSBeefCamps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1091859A1B994871008ACB14 /* DVSBeefCampsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVSBeefCampsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1091859F1B994871008ACB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,22 +73,11 @@
 		109185B61B994C0B008ACB14 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		109185B71B994C0B008ACB14 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		109185B81B994C0B008ACB14 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		109185C11B994D4A008ACB14 /* DVSNetBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSNetBaseRequest.h; sourceTree = "<group>"; };
-		109185C21B994D4A008ACB14 /* DVSNetBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSNetBaseRequest.m; sourceTree = "<group>"; };
-		1091EDFE1B9ACFED004F482A /* DVSNetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSNetConfig.h; sourceTree = "<group>"; };
-		1091EDFF1B9ACFED004F482A /* DVSNetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSNetConfig.m; sourceTree = "<group>"; };
-		1091EE011B9AD1B3004F482A /* DVSNetAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSNetAgent.h; sourceTree = "<group>"; };
-		1091EE021B9AD1B3004F482A /* DVSNetAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSNetAgent.m; sourceTree = "<group>"; };
-		1091EE091B9AE562004F482A /* DVSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSNetworking.h; sourceTree = "<group>"; };
 		1091EE0B1B9AEC55004F482A /* BeautyReformerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyReformerData.h; sourceTree = "<group>"; };
 		1091EE0C1B9AEC55004F482A /* BeautyReformerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyReformerData.m; sourceTree = "<group>"; };
 		1091EE101B9AFC2B004F482A /* DVSReformDataProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSReformDataProtocol.h; sourceTree = "<group>"; };
 		1091EE111B9B2AFE004F482A /* BaseReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseReformer.h; sourceTree = "<group>"; };
 		1091EE121B9B2AFE004F482A /* BaseReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseReformer.m; sourceTree = "<group>"; };
-		1091EE141B9B3118004F482A /* DVSBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSBatchRequest.h; sourceTree = "<group>"; };
-		1091EE151B9B3118004F482A /* DVSBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSBatchRequest.m; sourceTree = "<group>"; };
-		1091EE171B9B42A4004F482A /* DVSBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSBatchRequestAgent.h; sourceTree = "<group>"; };
-		1091EE181B9B42A4004F482A /* DVSBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSBatchRequestAgent.m; sourceTree = "<group>"; };
 		5F1957A90847173A7534DF5A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		64F37BC40B21A6B641EB7BA3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,9 +101,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1023D2CE1BA3F75A004530BD /* StoreManager */ = {
+		1023D30E1BA3FF94004530BD /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
+				1023D3241BA3FFB7004530BD /* DVSDataManager.h */,
+				1023D3251BA3FFB7004530BD /* DVSDataManager.m */,
+				1023D30F1BA3FF94004530BD /* Networking */,
+				1023D31B1BA3FF94004530BD /* StoreManager */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		1023D30F1BA3FF94004530BD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1023D31A1BA3FF94004530BD /* DVSNetworking.h */,
+				1023D3161BA3FF94004530BD /* DVSNetBaseRequest.h */,
+				1023D3171BA3FF94004530BD /* DVSNetBaseRequest.m */,
+				1023D3141BA3FF94004530BD /* DVSNetAgent.h */,
+				1023D3151BA3FF94004530BD /* DVSNetAgent.m */,
+				1023D3181BA3FF94004530BD /* DVSNetConfig.h */,
+				1023D3191BA3FF94004530BD /* DVSNetConfig.m */,
+				1023D3101BA3FF94004530BD /* DVSBatchRequest.h */,
+				1023D3111BA3FF94004530BD /* DVSBatchRequest.m */,
+				1023D3121BA3FF94004530BD /* DVSBatchRequestAgent.h */,
+				1023D3131BA3FF94004530BD /* DVSBatchRequestAgent.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1023D31B1BA3FF94004530BD /* StoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				1023D3271BA40195004530BD /* DVSStoreManager.h */,
+				1023D3281BA40195004530BD /* DVSStoreManager.m */,
+				1023D31C1BA3FF94004530BD /* DVSDataBaseModel.h */,
+				1023D31D1BA3FF94004530BD /* DVSDataBaseModel.m */,
+				1023D32A1BA40407004530BD /* DVSDataBaseModel+Query.h */,
+				1023D32B1BA40407004530BD /* DVSDataBaseModel+Query.m */,
 			);
 			path = StoreManager;
 			sourceTree = "<group>";
@@ -136,9 +183,8 @@
 		109185AD1B994C0B008ACB14 /* DVSBeefCamps */ = {
 			isa = PBXGroup;
 			children = (
-				1023D2CE1BA3F75A004530BD /* StoreManager */,
+				1023D30E1BA3FF94004530BD /* DataManager */,
 				1091EE0A1B9AEC0A004F482A /* ReformerData */,
-				109185C01B994C37008ACB14 /* Networking */,
 				109185AE1B994C0B008ACB14 /* AppDelegate.h */,
 				109185AF1B994C0B008ACB14 /* AppDelegate.m */,
 				109185B01B994C0B008ACB14 /* LaunchScreen.xib */,
@@ -150,24 +196,6 @@
 				109185B81B994C0B008ACB14 /* ViewController.m */,
 			);
 			path = DVSBeefCamps;
-			sourceTree = "<group>";
-		};
-		109185C01B994C37008ACB14 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				1091EE091B9AE562004F482A /* DVSNetworking.h */,
-				1091EDFE1B9ACFED004F482A /* DVSNetConfig.h */,
-				1091EDFF1B9ACFED004F482A /* DVSNetConfig.m */,
-				109185C11B994D4A008ACB14 /* DVSNetBaseRequest.h */,
-				109185C21B994D4A008ACB14 /* DVSNetBaseRequest.m */,
-				1091EE011B9AD1B3004F482A /* DVSNetAgent.h */,
-				1091EE021B9AD1B3004F482A /* DVSNetAgent.m */,
-				1091EE141B9B3118004F482A /* DVSBatchRequest.h */,
-				1091EE151B9B3118004F482A /* DVSBatchRequest.m */,
-				1091EE171B9B42A4004F482A /* DVSBatchRequestAgent.h */,
-				1091EE181B9B42A4004F482A /* DVSBatchRequestAgent.m */,
-			);
-			path = Networking;
 			sourceTree = "<group>";
 		};
 		1091EE0A1B9AEC0A004F482A /* ReformerData */ = {
@@ -335,15 +363,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				109185C31B994D4A008ACB14 /* DVSNetBaseRequest.m in Sources */,
 				109185BF1B994C0B008ACB14 /* ViewController.m in Sources */,
-				1091EE001B9ACFED004F482A /* DVSNetConfig.m in Sources */,
-				1091EE031B9AD1B3004F482A /* DVSNetAgent.m in Sources */,
-				1091EE191B9B42A4004F482A /* DVSBatchRequestAgent.m in Sources */,
-				1091EE161B9B3118004F482A /* DVSBatchRequest.m in Sources */,
 				1091EE0E1B9AEC55004F482A /* BeautyReformerData.m in Sources */,
 				109185BE1B994C0B008ACB14 /* main.m in Sources */,
+				1023D3291BA40195004530BD /* DVSStoreManager.m in Sources */,
+				1023D3231BA3FF94004530BD /* DVSDataBaseModel.m in Sources */,
+				1023D3201BA3FF94004530BD /* DVSNetAgent.m in Sources */,
 				1091EE131B9B2AFE004F482A /* BaseReformer.m in Sources */,
+				1023D32C1BA40407004530BD /* DVSDataBaseModel+Query.m in Sources */,
+				1023D31E1BA3FF94004530BD /* DVSBatchRequest.m in Sources */,
+				1023D3211BA3FF94004530BD /* DVSNetBaseRequest.m in Sources */,
+				1023D3221BA3FF94004530BD /* DVSNetConfig.m in Sources */,
+				1023D3261BA3FFB7004530BD /* DVSDataManager.m in Sources */,
+				1023D31F1BA3FF94004530BD /* DVSBatchRequestAgent.m in Sources */,
 				109185B91B994C0B008ACB14 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
